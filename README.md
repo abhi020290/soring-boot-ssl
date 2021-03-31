@@ -1,6 +1,8 @@
 # spring-boot-ssl
 spring-boot-ssl
 
+SslContainerFactory class is not a mandatory
+
 JKS
             
     keytool -genkeypair -alias sample_pc12file -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore sample_pc12file.p12 -validity 3650
